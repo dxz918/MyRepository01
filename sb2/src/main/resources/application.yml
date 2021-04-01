@@ -1,0 +1,14 @@
+debug: false
+server:
+  port: 8082
+  servlet:
+    context-path: /java19
+    encoding:
+      charset: UTF-8
+spring:
+  mvc:
+    format:
+      date: yyyy-MM-dd
+  jackson:
+    date-format: yyyy-MM-dd
+    time-zone: CMT+8
